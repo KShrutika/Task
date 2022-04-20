@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100px;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+
+
+article {
+  float: left;
+  padding: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align:left;
+  color: rgba(255, 255, 255, 0.852);
+  
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 3000px) {
+  nav, article {
+    width: 600%;
+    height: bottom;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Travel Insurance</h2>
+</header>
+
+<section>
+  <article>
+    <div style="background: ghostwhite; 
+            width: 800px;
+            font-size: 20px; 
+            padding: 10px; 
+            border: 2px solid lightgray; 
+            margin: 30px;">
+  
+
+    <h1>Business Travel Insurance for GE India, Simplified for you!</h1>
+
+   <h1><i><p style="color:blue;">Changes are effective for travel booked on or after August 21, 2017</p></i></h1>
+
+ <h3>
+     All GE business travelers who are employed in India will follow a new business travel
+     Insurance process when booking international business travel on or after August 21, 2017.A
+     new program through ICICI Lombard will reduce the need for trip-specific insurance
+     certificates.
+
+      With our new insurance provider <b>ICICI Lombard</b>, your Business Travel Insurance is provided
+     on a <b>blanket</b> basis, meaning that all GE India employees traveling on Company business
+     outside of India are automatically covered by the policy. Personalized travel certificates
+      indicating travel dates and pre-notification of travel plans are no longer necessary to ensure
+     GE Business Travel Insurance <b>coverage</b> for employees of GE India. This approach aligns
+     with the GE Global Business Travel Insurance program used for GE employees of all other
+     countries.
+
+     <b>It may still be necessary for you to provide an insurance certificate to satisfy
+      requirements to obtain a travel visa for some countries.</b> If necessary, click the link below.
+      You will be directed to the ICICI Lombard website to request a personalized insurance
+       certificate that may be used as proof of coverage
+       <br>
+
+       <h2>Request Business Travel Insurance for Visa purpose here.
+        Business Travel Insurance Overview for employees of GE India can be downloaded here.</h2>
+       <small>Note: Page 3 provides a description of the data needed to request a Business Travel Insurance Certificate for VISA purposes.</small>
+      <br>
+
+      India Business Travel Insurance FAQs can be downloaded here.
+      <br>
+      <b>For Certificate Assistance</b><br>
+     Email:<p style="color:blue;">travelinsurance@icicilombard.com</p>    
+
+     <br>
+      <b>For Claims Assistance</b>
+      <br>
+       Telephone: 1.800.102.5721 (Toll free and accessible in India, Available from<br>
+       Mon-Fri between 9AM-6PM)<br>
+
+       Email: <p style="color:blue;">icicilombard@falck.com</p>
+
+       Fax: +91 124 4006674
+      <br>
+
+      For more information about GE Business Travel Insurance program please visit,
+ -     travel.ge.com, Resources (from top menu), GE Global Business Travel Insurance.
+ </h3>
+
+</div>
+  </article>
+</section>
+<footer>  
+  <p> © 2021 GENERAL ELECTRIC  </p>
+  <div class="bottom-navbar">
+    <a href="/privacy" class="active">PRIVACY</a>
+    <a href="/terms">TERMS OF USE</a>
+    <a href="/cookies">USE OF COOKIES</a>
+    <a href="/accessibility">ACCESSIBILITY</a>
+   </div>
+</footer>
+</body>
+
+</html>
+
+
